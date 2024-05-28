@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.5"
+djangorestframework = "==3.14.0"
+opencv-python = "==4.8.0.76"
+requests = "==2.31.0"
+ultralytics = "==8.0.210"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
